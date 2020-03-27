@@ -1,0 +1,13 @@
+name: Advent
+version: 0.1.0
+
+authors:
+  - Val Baca <valbaca@gmail.com>
+
+targets:
+  Advent:
+    main: src/Advent.cr
+
+crystal: 0.33.0
+
+license: MIT
