@@ -1,6 +1,15 @@
 # Advent
 
-TODO: Write a description here
+Contains solutions to [Advent of Code](https://adventofcode.com/) problems written in Crystal
+
+Advent of Code is my favorite way to learn a new language.
+
+The problems are fun and interesting while also forcing me to learn practical parts of a language:
+- types: int, string, array, map, big-int, structs, classes
+- reading from files
+- writing to output
+- testing: I try to follow TDD it suits Advent of Code very well
+- performance: most coding challenges allow for brute force at first, but n becomes large quickly
 
 ## Installation
 
@@ -24,4 +33,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Val Baca](https://github.com/your-github-user) - creator and maintainer
+- [Val Baca](https://github.com/valbaca) - creator and maintainer
