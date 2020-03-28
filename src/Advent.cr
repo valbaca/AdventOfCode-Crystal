@@ -1,5 +1,6 @@
 require "./Day01"
 require "./Day02"
+require "./Day03"
 # Advent is made up of solutions for Advent of Code to learn Crystal
 #
 # See https://adventofcode.com
@@ -19,5 +20,7 @@ module Advent
   puts "Day 02, part 1:"
   puts Advent::Day02.part1(d02_input)
   puts Advent::Day02.part2(d02_input)
+
+  steps = Advent::Day03.part1(325489+1)
 
 end
