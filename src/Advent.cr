@@ -18,5 +18,6 @@ module Advent
   d02_input = File.read_lines("input/d02p1.txt")
   puts "Day 02, part 1:"
   puts Advent::Day02.part1(d02_input)
+  puts Advent::Day02.part2(d02_input)
 
 end

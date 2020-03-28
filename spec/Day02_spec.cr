@@ -8,5 +8,11 @@ describe Advent::Day02 do
                          "7 5 3",
                          "2 4 6 8"]).should eq(18)
   end
-end
 
+  it "Day 2, part 2: divide checksum spreadsheet" do
+    Advent::Day02.part2(["5 9 2 8"]).should eq(4)
+    Advent::Day02.part2(["5 9 2 8",
+                         "9 4 7 3",
+                         "3 8 6 5"]).should eq(9)
+  end
+end
