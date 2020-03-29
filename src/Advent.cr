@@ -1,6 +1,7 @@
 require "./Day01"
 require "./Day02"
 require "./Day03"
+require "./Day04"
 # Advent is made up of solutions for Advent of Code to learn Crystal
 #
 # See https://adventofcode.com
@@ -23,5 +24,10 @@ module Advent
   puts "Day 03:"
   puts Advent::Day03.part1(325489+1)
   puts Advent::Day03.part2(325489)
+
+  puts "Day 04:"
+  d04_input = File.read_lines("input/d04.txt")
+  puts Advent::Day04.part1(d04_input)
+  puts Advent::Day04.part2(d04_input)
 
 end
