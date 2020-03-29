@@ -21,6 +21,7 @@ module Advent
   puts Advent::Day02.part1(d02_input)
   puts Advent::Day02.part2(d02_input)
 
-  steps = Advent::Day03.part1(325489+1)
+  puts Advent::Day03.part1(325489+1)
+  puts Advent::Day03.part2(325489)
 
 end
