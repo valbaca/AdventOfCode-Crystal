@@ -11,16 +11,16 @@ module Advent
   #TODO get the day from input: Advent -d 1 # or do nothing
 
   d01_input = File.read_lines("input/d01p1.txt")[0]
-  puts "Day 01, part 1:"
+  puts "Day 01:"
   puts Advent::Day01.part1(d01_input)
-  puts "Day 01, part 2:"
   puts Advent::Day01.part2(d01_input)
 
   d02_input = File.read_lines("input/d02p1.txt")
-  puts "Day 02, part 1:"
+  puts "Day 02:"
   puts Advent::Day02.part1(d02_input)
   puts Advent::Day02.part2(d02_input)
 
+  puts "Day 03:"
   puts Advent::Day03.part1(325489+1)
   puts Advent::Day03.part2(325489)
 
