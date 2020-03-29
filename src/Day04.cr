@@ -1,3 +1,4 @@
+# TIL: to_set is handy
 module Advent
   class Day04
     def self.part1(input)

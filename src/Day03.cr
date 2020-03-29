@@ -1,3 +1,10 @@
+# TIL: This was a challenging problem. There has to be another way
+
+# The nil checks on ivars is very annoying, but perhaps it's more clear
+# than other langs where race-conditions could be hiding
+
+# Again, still blown away by Crystal's speed
+# My solution isn't well optimized, but still executes fast
 module Advent
   class Day03
 

@@ -1,5 +1,8 @@
 require "./Elf"
 
+# TIL: learned how to "monkey patch" using Elf.cr
+# Allowed me to add #to_ints to String, rather than writing a static method
+# TIL: even though my soln for part 2 is brute-force, Crystal is FAST
 module Advent
   class Day02
     def self.part1(input)
