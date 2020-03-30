@@ -183,7 +183,7 @@ module Advent
         nxt.calc_value
         cur = nxt
       end
-      cur
+      cur.value
     end
   end
 end
