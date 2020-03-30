@@ -1,13 +1,8 @@
-require "./Day01"
-require "./Day02"
-require "./Day03"
-require "./Day04"
-require "./Day05"
+require "./*"
 # Advent is made up of solutions for Advent of Code to learn Crystal
 #
 # See https://adventofcode.com
-module Advent
-  extend self
+module Main
   VERSION = "0.1.0"
   puts "Advent 2017"
   #TODO get the day from input: Advent -d 1 # or do nothing
