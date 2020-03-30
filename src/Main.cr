@@ -5,9 +5,7 @@ require "option_parser"
 #
 # See https://adventofcode.com
 module Main
-  start_time = Time.monotonic
   VERSION = "0.1.0"
-  #LAST_DAY_SOLVED = 5
   puts "Advent 2017"
 
   all_days = true
@@ -66,9 +64,4 @@ module Main
     puts Advent::Day05.part2(d05_input)
   end
   LAST_DAY_SOLVED = 5 #TODO Update me on each new solution
-
-  # Print elapsed runtime (to tell compile vs runtime)
-  elapsed = Time.monotonic - start_time
-  # output looks like bash's
-  puts "runtime: #{elapsed.minutes}m#{elapsed.seconds}.#{elapsed.milliseconds}s"
 end
