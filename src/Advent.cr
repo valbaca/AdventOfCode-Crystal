@@ -34,4 +34,6 @@ module Advent
   puts "Day 05:"
   d05_input = File.read_lines("input/d05.txt")
   puts Advent::Day05.part1(d05_input)
+  puts Advent::Day05.part2(d05_input)
+
 end
